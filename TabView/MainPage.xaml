@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabView.MainPage"
+             xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView">
+
+    <Grid VerticalOptions="FillAndExpand">
+        <tabView:SfTabView IndicatorStrokeThickness="7" x:Name="tabview">
+            <tabView:SfTabItem Header="Dashboard" FontSize="18">
+                <StackLayout Padding="15">
+                    <Label Text="View your dashboard insights!" 
+                       FontSize="16" 
+                       HorizontalOptions="Center" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Notifications" FontSize="18">
+                <StackLayout Padding="15">
+                    <Label Text="Check your recent notifications." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Help" FontSize="18">
+                <StackLayout Padding="15">
+                    <Label Text="Get assistance and FAQs here!" 
+                       FontSize="16" 
+                       HorizontalOptions="Center" />
+                </StackLayout>
+            </tabView:SfTabItem>
+        </tabView:SfTabView>
+    </Grid>
+
+</ContentPage>
