@@ -3,7 +3,7 @@ This repository contains a sample explaining how to Customize the Indicator Stro
 
 ### IndicatorStrokeThickness support in .NET MAUI TabView
 
-The `IndicatorStrokeThickness` property allows you to customize the thickness of the indicator stroke in the TabView control
+The `IndicatorStrokeThickness` property allows you to customize the thickness of the indicator stroke in the TabView control.
 
 The following code example illustrate how to Customize IndicatorStrokeThickness in SfTabView.
 
