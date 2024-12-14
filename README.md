@@ -10,8 +10,25 @@ The following code example illustrate how to Customize IndicatorStrokeThickness 
 ### XAML
 
 ```
-    <tabView:SfTabView IndicatorStrokeThickness ="7">
-    </tabView:SfTabView> 
+    <Grid VerticalOptions="FillAndExpand">
+    <tabView:SfTabView IndicatorStrokeThickness="7" x:Name="tabview">
+        <tabView:SfTabItem Header="Dashboard" FontSize="18">
+            <StackLayout Padding="15">
+                <Label Text="View your dashboard insights!" 
+                   FontSize="16" 
+                   HorizontalOptions="Center" />
+            </StackLayout>
+        </tabView:SfTabItem>
+
+        <tabView:SfTabItem Header="Notifications" FontSize="18">
+            <StackLayout Padding="15">
+                <Label Text="Check your recent notifications." 
+                   FontSize="16" 
+                   HorizontalOptions="Center" />
+            </StackLayout>
+        </tabView:SfTabItem>
+    </tabView:SfTabView>
+    <Grid>
 ```
 
 ### C#
